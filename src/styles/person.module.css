@@ -1,0 +1,52 @@
+.container {
+	border-radius: 100%;
+	height: 3rem;
+	width: 3rem;
+	margin: 10%;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	color: white;
+	cursor: pointer;
+
+	font-weight: lighter;
+	
+	transition: all .1s linear;
+	position: relative;
+}
+
+.container:hover {
+	height: 3.5rem;
+	width: 3.5rem;
+}
+
+.container:focus {
+	height: 3.5rem;
+	width: 3.5rem;
+}
+
+.badge {
+	height: .5rem;
+	width: .5rem;
+	border-radius: 100%;
+	background-color: rgb(255, 255, 255);
+
+	position: absolute;
+	bottom: 10%;
+	z-index: 10;
+	animation: up-down 1s ease-in-out infinite;
+	animation-direction: alternate;
+}
+
+@keyframes up-down {
+
+	from {
+		bottom: 5%;
+	}
+	to {
+		bottom: 15%;
+	}
+}

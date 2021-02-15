@@ -1,4 +1,5 @@
 import Inbox from './components/Inbox'
+import Letter from './components/Letter'
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
       <div className="background"></div>
       <div className="container">
         <Inbox />
-        <div className="column letters"></div>
+        <Letter />
         <div className="column writter"></div>
       </div>
     </div>

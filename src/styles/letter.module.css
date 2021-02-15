@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border-radius: 7px;
+	width: 85%;
+
+	margin: .5rem;
+	padding: 1rem;
+
+	font-size: 1.5rem;
+	color: white;
+	font-weight: lighter;
+
+	transition: width .1s;
+}
+
+.container:hover {
+	width: 87%;
+}
+
+.container[type=sended] {
+	background-color: rgba(196,196,196, 0.5);
+}
+
+.container[type=recieved] {
+	background-color: rgba(224,207,164, 0.5);
+
+}
