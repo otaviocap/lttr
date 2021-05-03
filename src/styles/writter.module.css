@@ -1,0 +1,58 @@
+.letterWritter {
+	width: 30%;
+	min-width: 400px;
+	height: 90%;
+	margin: 10px;
+	padding: 10px;
+
+	outline: none;
+	border: none;
+	color: white;
+	background-color: var(--background-color-darker);
+	font-weight: light;
+
+	backdrop-filter: blur(var(--blur-radius));
+
+	font-size: 1.3rem;
+	
+	border-radius: var(--border-radius);
+
+	resize: none;
+}
+
+.bottomBar {
+	display: flex;
+	flex-direction: row;
+	width: 31%;
+	min-width: 410px;
+	height: 30px;
+}
+
+.bottomBar > * {
+	margin: 2px;
+}
+
+.status {
+	width: 80%;
+	border-radius: var(--border-radius);
+	color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: var(--background-color-darker);
+	backdrop-filter: blur(var(--blur-radius));
+
+}
+
+.button {
+	width: 20%;
+	border-radius: var(--border-radius);
+	background-color: #B8DDAF;
+	border: none;
+	outline: none;
+
+	font-size: 1rem;
+	font-weight: lighter;
+}

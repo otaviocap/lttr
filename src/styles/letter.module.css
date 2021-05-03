@@ -3,7 +3,7 @@
 	align-items: center;
 	justify-content: center;
 
-	border-radius: 7px;
+	border-radius: var(--border-radius);
 	width: 85%;
 
 	margin: .5rem;

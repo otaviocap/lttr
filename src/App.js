@@ -1,5 +1,6 @@
 import Inbox from './components/Inbox'
 import Letter from './components/Letter'
+import Writter from './components/Writter'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <div className="container">
         <Inbox />
         <Letter />
-        <div className="column writter"></div>
+        <Writter />
       </div>
     </div>
   );
